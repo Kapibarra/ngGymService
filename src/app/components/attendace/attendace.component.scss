@@ -1,0 +1,65 @@
+.attendance {
+    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.attendance__card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.attendance__card {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.attendance__card-img img {
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#attendance-card {
+    position: relative
+}
+
+#attendance-card:before,
+#attendance-card:after,
+#attendance-card>:first-child:before,
+#attendance-card>:first-child:after {
+    position: absolute;
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    border-color: #F74902;
+    /* or whatever colour */
+    border-style: solid;
+    /* or whatever style */
+}
+
+#attendance-card:before {
+    top: 0;
+    left: 0;
+    border-width: 3px 0 0 3px
+}
+
+#attendance-card:after {
+    top: 0;
+    right: 0;
+    border-width: 3px 3px 0 0
+}
+
+#attendance-card>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 3px 3px 0
+}
+
+#attendance-card>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 3px 3px
+}
