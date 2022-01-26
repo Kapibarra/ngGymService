@@ -17,7 +17,13 @@
     margin-top: 40px;
 }
 
+.attendance__card-img {
+    width: 100%;
+}
+
 .attendance__card-img img {
+    display: block;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 40px;
 }
