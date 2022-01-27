@@ -8,27 +8,27 @@ import { Component, OnInit } from '@angular/core';
 export class PartnersComponent implements OnInit {
 
   imageObject = [{
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    title: 'Hummingbirds are amazing creatures'
+    image: '../../../assets/img/partners1.png',
+    thumbImage: '../../../assets/img/partners1.png',
 }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg'
+  image: '../../../assets/img/partners2.png',
+  thumbImage: '../../../assets/img/partners2.png',
 }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    title: 'Example with title.'
+  image: '../../../assets/img/partners3.png',
+  thumbImage: '../../../assets/img/partners3.png',
 },{
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    title: 'Hummingbirds are amazing creatures'
+  image: '../../../assets/img/partners4.png',
+  thumbImage: '../../../assets/img/partners4.png',
 }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg'
+  image: '../../../assets/img/partners5.png',
+  thumbImage: '../../../assets/img/partners5.png',
+},
+{
+  image: '../../../assets/img/partners6.png',
+  thumbImage: '../../../assets/img/partners6.png',
 }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    title: 'Example two with title.'
+  image: '../../../assets/img/partners7.png',
+  thumbImage: '../../../assets/img/partners7.png',
 }];
   constructor() { }
 

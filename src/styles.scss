@@ -6,3 +6,8 @@ html {
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
+
+.ng-image-slider .ng-image-slider-container .main .main-inner .img-div {
+    box-shadow: none !important;
+    margin-right: 25px !important;
+}
