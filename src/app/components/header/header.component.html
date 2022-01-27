@@ -1,14 +1,17 @@
 <header class="header">
-    <div class="header__logo"><img src="../../../assets/img/logo.svg"></div>
+    <div class="header__logo">
+        <a [routerLink]="['/']"><img src="../../../assets/img/logo.svg"></a>
+    </div>
+    <ul class="header__nav">
+        <li class="header__nav-item"><a (click)="onClickScroll('about')">О нас</a></li>
+        <li class="header__nav-item"><a (click)="onClickScroll('services')">Услуги</a></li>
+        <li class="header__nav-item"><a (click)="onClickScroll('gallery')">Галерея</a></li>
+        <li class="header__nav-item"><a (click)="onClickScroll('footer')">Контакты</a></li>
+    </ul>
     <div class="header__nav-wrapper">
-        <ul class="header__nav">
-            <li class="header__nav-item"><a (click)="onClickScroll('about')">О нас</a></li>
-            <li class="header__nav-item"><a (click)="onClickScroll('services')">Услуги</a></li>
-            <li class="header__nav-item"><a (click)="onClickScroll('gallery')">Галерея</a></li>
-            <li class="header__nav-item"><a (click)="onClickScroll('footer')">Контакты</a></li>
-        </ul>
+
         <div class="header__nav-socialmedia">
-            <a>
+            <a href="wa.me//:">
                 <div class="header__nav-socialmedia-item"><img class="header__nav-socialmedia-item" src="../../../assets/img/whatsapp-fill.svg"></div>
             </a>
             <a>
