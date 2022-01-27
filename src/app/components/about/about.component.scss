@@ -1,0 +1,30 @@
+.about__img-bg {
+    margin-top: 80px;
+    height: 17px;
+    overflow: hidden;
+    background: url(../../../assets/img/blocksplitter.png);
+    background-repeat: repeat-x;
+}
+
+.about {
+    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
+    margin-top: 80px;
+    & .about__title {
+        border-bottom: 2px solid #F74902;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+}
+
+.about__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & .about__text {
+        width: 100%;
+        max-width: 740px;
+    }
+}
