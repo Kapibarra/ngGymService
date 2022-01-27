@@ -1,0 +1,10 @@
+.partners {
+    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
+    margin-top: 40px;
+    & .partners__title {
+        border-bottom: 1px solid #F74902;
+        line-height: 42px;
+    }
+}

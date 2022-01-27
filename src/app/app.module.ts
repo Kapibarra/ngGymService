@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,15 @@ import { AdvantagesComponent } from './components/advantages/advantages.componen
     GalleryComponent,
     FooterComponent,
     HeaderComponent,
-    AdvantagesComponent
+    AdvantagesComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
