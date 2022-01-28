@@ -89,6 +89,55 @@
     margin-top: 40px;
 }
 
+.attendance__card-maintitle {
+    position: relative;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    color: #F74902;
+    line-height: 46px;
+    &:after {
+        content: "";
+        background: black;
+        position: absolute;
+        bottom: -10%;
+        left: 12.5%;
+        height: 1px;
+        width: 75%;
+        background: #F74902;
+    }
+}
+
+.attendance__card-title {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    & .highlight {
+        color: #F74902;
+    }
+}
+
+.highlight {
+    color: #F74902;
+    font-size: 36px;
+}
+
+.attendance__card .card-wrapper ul {
+    list-style-type: none;
+    list-style: none;
+    padding-inline-start: 88px;
+    list-style-image: url("../../../assets/img/smallline.svg");
+    & li {
+        font-size: 22px;
+        font-weight: 200;
+    }
+}
+
+ul li::marker {
+    font-size: 36px;
+}
+
 .attendance__card-img {
     width: 100%;
 }
