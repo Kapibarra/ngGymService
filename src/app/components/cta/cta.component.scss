@@ -5,7 +5,7 @@
     }
     & .cta__inner {
         width: 100%;
-        max-width: 410px;
+        max-width: 415px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -18,5 +18,62 @@
         justify-content: space-between;
         margin-top: 50px;
         margin-bottom: 25px;
+    }
+}
+
+.cta__img-bg {
+    height: 17px;
+    margin-bottom: -5px;
+    background: url(../../../assets/img/blocksplitter-linear-btm.png);
+    background-repeat: repeat-x;
+}
+
+.cta__img-bg-btm {
+    height: 17px;
+    margin-top: -4px;
+    background: url(../../../assets/img/blocksplitter-linear-btm2.png);
+    background-repeat: repeat-x;
+}
+
+.cta__title {
+    font-size: 34px;
+    font-weight: lighter;
+    font-family: 'Viaoda Libre', cursive;
+    letter-spacing: -3%;
+}
+
+.cta__button {
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 0 17px 20px rgba(#F74902, 0.1);
+    background: #F74902;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    color: #282828;
+    transition: all .3s ease;
+    &:hover {
+        cursor: pointer;
+        color: white;
+        transition: all .3s ease;
+        box-shadow: 0 0 17px 20px rgba(#F74902, 0.25);
+    }
+}
+
+.cta__social-icon {
+    filter: brightness(0.95);
+    transition: all 300ms ease-in-out;
+}
+
+.cta__social-wrapper {
+    a {
+        &:hover {
+            .cta__social-icon {
+                filter: brightness(1.05);
+                transform: scale(1.07);
+                cursor: pointer;
+                transition: all 300ms ease-in-out;
+            }
+        }
     }
 }
