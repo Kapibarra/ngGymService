@@ -2,6 +2,8 @@
     width: 100%;
     max-width: 1485px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 8px;
     margin-top: 40px;
     & .partners__title {
         border-bottom: 1px solid #F74902;
