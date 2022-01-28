@@ -9,11 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private viewportscroller: ViewportScroller) { }
+  mobile = false;
+
+  constructor(private viewportscroller: ViewportScroller) { 
+
+  }
 
   ngOnInit(): void {
+    if (window.screen.width <= 428) { // 768px portrait
+      this.mobile = true;
+      console.log('mobile', this.mobile);
+      
+    }
+
   }
  onClickScroll(elementId: string):void {
 this.viewportscroller.scrollToAnchor(elementId);
+
  }
 }
