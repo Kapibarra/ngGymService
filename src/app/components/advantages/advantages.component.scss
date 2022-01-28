@@ -15,17 +15,41 @@
     }
 }
 
+.advantages__title {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+    letter-spacing: -3%;
+    font-weight: regular;
+    margin-top: 30px;
+}
+
 .advantages__card {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 75px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     margin-bottom: 20px;
     & .advantages__card-title {
         margin-left: 10px;
+        font-size: 30px;
+        font-weight: 200;
     }
+}
+
+.card-1 {
+    max-width: 85%;
+}
+
+.card-2 {
+    max-width: 100%;
+}
+
+.card-3 {
+    max-width: 70%;
 }
 
 #advantages__card {
@@ -39,7 +63,7 @@
     position: absolute;
     content: ' ';
     width: 20px;
-    height: 20px;
+    height: 8px;
     border-color: #F74902;
     /* or whatever colour */
     border-style: solid;
@@ -49,23 +73,27 @@
 #advantages__card:before {
     top: 0;
     left: 0;
-    border-width: 2px 0 0 2px
+    border-width: 3px 0 0 3px;
+    border-radius: 3px
 }
 
 #advantages__card:after {
     top: 0;
     right: 0;
-    border-width: 2px 2px 0 0
+    border-width: 3px 3px 0 0;
+    border-radius: 3px
 }
 
 #advantages__card>:first-child:before {
     bottom: 0;
     right: 0;
-    border-width: 0 2px 2px 0
+    border-width: 0 3px 3px 0;
+    border-radius: 3px
 }
 
 #advantages__card>:first-child:after {
     bottom: 0;
     left: 0;
-    border-width: 0 0 2px 2px
+    border-width: 0 0 3px 3px;
+    border-radius: 3px
 }
