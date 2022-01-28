@@ -76,3 +76,9 @@
         color: #F74902;
     }
 }
+
+@media screen and (max-width:968px) {
+    .header__logo {
+        margin-left: 10px;
+    }
+}
