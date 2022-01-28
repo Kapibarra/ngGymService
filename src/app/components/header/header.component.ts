@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (window.screen.width <= 428) { // 768px portrait
+    if (window.screen.width <= 968) { // 768px portrait
       this.mobile = true;
       console.log('mobile', this.mobile);
       

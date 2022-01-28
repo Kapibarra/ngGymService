@@ -1,0 +1,13 @@
+<div class="burger-menu" [class.active]="active" (click)="onBurgerClicked()">
+    <div class="burger-container">
+        <div class="burger-inner"></div>
+    </div>
+    <div class="overlay">
+        <ul class="header__nav">
+            <li class="header__nav-item"><a (click)="onClickScroll('about')">О нас</a></li>
+            <li class="header__nav-item"><a (click)="onClickScroll('services')">Услуги</a></li>
+            <li class="header__nav-item"><a (click)="onClickScroll('gallery')">Галерея</a></li>
+            <li class="header__nav-item"><a (click)="onClickScroll('footer')">Контакты</a></li>
+        </ul>
+    </div>
+</div>

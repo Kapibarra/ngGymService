@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { BurgerComponent } from './components/burger/burger.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     FooterComponent,
     HeaderComponent,
     AdvantagesComponent,
+    BurgerComponent,
     
   ],
   imports: [
