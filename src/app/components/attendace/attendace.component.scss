@@ -134,7 +134,7 @@
     & li {
         font-size: 22px;
         font-weight: 200;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -194,6 +194,15 @@ ul li::marker {
     bottom: 0;
     left: 0;
     border-width: 0 0 3px 3px
+}
+
+@media screen and (max-width: 1280px) {
+    .attendance__card-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 428px) {

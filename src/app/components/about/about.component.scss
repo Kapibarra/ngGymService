@@ -45,6 +45,12 @@
     }
 }
 
+@media screen and (max-width: 968px) {
+    .about__block {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 428px) {
     .about__text {
         font-size: 18px;
