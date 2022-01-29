@@ -18,6 +18,8 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "@types/gsap": "^3.0.0",
+    "gsap": "^3.9.1",
     "ng-image-slider": "^2.8.0",
     "normalize.css": "^8.0.1",
     "rxjs": "~7.4.0",
