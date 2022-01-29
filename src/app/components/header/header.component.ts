@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit{
   mobile = false;
   constructor(private viewportscroller: ViewportScroller) {}
   ngOnInit(): void {
@@ -19,4 +19,5 @@ export class HeaderComponent implements OnInit {
   onClickScroll(elementId: string): void {
     this.viewportscroller.scrollToAnchor(elementId);
   }
+
 }

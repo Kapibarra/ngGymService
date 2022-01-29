@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { NgwWowModule } from 'ngx-wow';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
@@ -38,6 +38,7 @@ import { BurgerComponent } from './components/burger/burger.component';
     FormsModule,
     BrowserAnimationsModule,
     NgImageSliderModule,
+    NgwWowModule ,
   ],
   providers: [],
   bootstrap: [AppComponent]
