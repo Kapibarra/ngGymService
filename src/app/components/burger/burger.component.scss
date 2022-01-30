@@ -74,12 +74,28 @@ $burgerBarColor: #F74902;
         z-index: 9;
         top: 0;
         left: 0;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.98);
         height: 100vh;
         width: 100vw;
         & .burger__nav {
             transition: height 250ms ease-in-out;
             opacity: 1;
+            display: flex;
+            list-style: none;
+            padding-inline-start: 0px;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            margin-top: 60%;
+            & li {
+                margin-bottom: 10px;
+            }
+            & li a {
+                font-size: 32px;
+                font-family: 'Viaoda Libre', cursive;
+            }
         }
     }
 }

@@ -2,4 +2,13 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+    filter: brightness(1);
+    transform: scale(1);
+    transition: all 300ms ease-in-out;
+    &:hover {
+        filter: brightness(1.1);
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+        transform: scale(1.1);
+    }
 }
