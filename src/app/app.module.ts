@@ -16,6 +16,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { BurgerComponent } from './components/burger/burger.component';
+import { FixedbtnComponent } from './components/fixedbtn/fixedbtn.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { BurgerComponent } from './components/burger/burger.component';
     HeaderComponent,
     AdvantagesComponent,
     BurgerComponent,
+    FixedbtnComponent,
     
   ],
   imports: [
