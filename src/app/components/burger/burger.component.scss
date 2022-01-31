@@ -150,4 +150,12 @@ $burgerBarColor: #F74902;
     flex-wrap: nowrap;
     align-items: center;
     margin-top: 30%;
+    & a {
+        text-decoration: none;
+        font-family: 'Viaoda Libre', cursive;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+        color: #323232
+    }
 }
