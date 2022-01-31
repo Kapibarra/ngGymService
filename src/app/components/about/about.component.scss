@@ -28,7 +28,6 @@
 .about__img {
     width: 100%;
     max-width: 500px;
-    margin-top: 20px;
 }
 
 .about__block {
@@ -39,6 +38,7 @@
     & .about__text {
         width: 100%;
         max-width: 740px;
+        margin-top: 20px;
         font-size: 22px;
         letter-spacing: -3%;
         font-weight: 200;
