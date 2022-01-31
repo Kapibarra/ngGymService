@@ -85,3 +85,14 @@
         display: none;
     }
 }
+
+@media screen and (max-width:428px) {
+    .header__logo {
+        width: 100%;
+        max-width: 80px;
+        & a img {
+            width: 100%;
+            max-width: 80px;
+        }
+    }
+}
