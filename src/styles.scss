@@ -13,4 +13,7 @@ html {
 .ng-image-slider .ng-image-slider-container .main .main-inner .img-div {
     box-shadow: none !important;
     margin-right: 5px !important;
+    & img {
+        height: unset !important;
+    }
 }
