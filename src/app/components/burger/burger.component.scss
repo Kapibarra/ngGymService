@@ -95,6 +95,35 @@ $burgerBarColor: #F74902;
             & li a {
                 font-size: 32px;
                 font-family: 'Viaoda Libre', cursive;
+                & .nav__item-inner:before {
+                    content: attr(data-text);
+                    overflow: hidden;
+                    width: 0%;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    white-space: nowrap;
+                    color: red;
+                    background-color: #f5f5f5;
+                    z-index: 2;
+                    transform: translateY(-50%);
+                    transition: 1s cubic-bezier(.225, 1, .316, .99);
+                }
+                &:hover .nav__item-inner:before {
+                    width: 100%;
+                    content: attr(data-text);
+                    overflow: hidden;
+                    width: 0%;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    white-space: nowrap;
+                    color: red;
+                    background-color: #f5f5f5;
+                    z-index: 2;
+                    transform: translateY(-50%);
+                    transition: 1s cubic-bezier(.225, 1, .316, .99);
+                }
             }
         }
     }

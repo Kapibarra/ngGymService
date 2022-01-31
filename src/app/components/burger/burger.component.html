@@ -4,10 +4,13 @@
     </div>
     <div class="overlay">
         <ul class="burger__nav">
-            <li class="burger__nav-item"><a (click)="onClickScroll('about')">О нас</a></li>
-            <li class="burger__nav-item"><a (click)="onClickScroll('services')">Услуги</a></li>
-            <li class="burger__nav-item"><a (click)="onClickScroll('gallery')">Галерея</a></li>
-            <li class="burger__nav-item"><a (click)="onClickScroll('footer')">Контакты</a></li>
+            <li class="burger__nav-item">
+                <a (click)="onClickScroll('about')"> <span class="nav__item-inner">О нас</span></a>
+            </li>
+            <li class="burger__nav-item"><a (click)="onClickScroll('services')"><span class="nav__item-inner">Услуги</span></a></li>
+            <li class="burger__nav-item"><a (click)="onClickScroll('gallery')"><span class="nav__item-inner">Галерея</span></a></li>
+            <li class="burger__nav-item"><a (click)="onClickScroll('footer')"><span class="nav__item-inner">Контакты</span></a></li>
         </ul>
+        <div class="burger__logo"></div>
     </div>
 </div>
