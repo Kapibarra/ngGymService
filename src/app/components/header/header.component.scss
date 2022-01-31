@@ -1,6 +1,9 @@
 .header {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
     height: 105px;
     margin: 0 auto;
     display: flex;
