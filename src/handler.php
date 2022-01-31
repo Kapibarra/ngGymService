@@ -45,7 +45,9 @@ try {
 		<strong>Имя:</strong> ' . $mail_from_name; 
 	$mail->Send();
 
-	echo 'Сообщение успешно отправлено!';
+	echo '<script>
+	alert("Ваше сообщение отправлено!")
+	</script>';
 
 } catch (Exception $e) {
 
