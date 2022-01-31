@@ -4,7 +4,7 @@
         <h2 class="cta__title" *ngIf="mobile">Звоните Нам Прямо Сейчас!</h2>
         <a href="tel:+79017111769" class="cta__button" *ngIf="mobile"><button class="cta__button">ПОЗВОНИТЬ</button></a>
         <h2 class="cta__title" *ngIf="desktop">Оставьте Заявку Прямо Сейчас!</h2>
-        <form ngNoForm action="handler.php" target="_blank" method="POST" *ngIf="desktop">
+        <form ngNoForm action="handler.php" method="POST" *ngIf="desktop">
             <input type="tel" class="cta__input" placeholder="Номер телефона" name="phone">
             <input type="text" class="cta__input" placeholder="Имя" name="name">
             <button type="submit">Отправить</button>
