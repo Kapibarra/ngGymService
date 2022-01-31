@@ -70,7 +70,7 @@
     content: ' ';
     width: 50px;
     height: 30px;
-    border-color: #F74902;
+    border-color: white;
     /* or whatever colour */
     border-style: solid;
     /* or whatever style */
@@ -98,4 +98,11 @@
     bottom: 0;
     left: 0;
     border-width: 0 0 2px 2px
+}
+
+@media screen and (max-width: 428px) {
+    .hero {
+        background-size: cover;
+        background-position: 25% 75%;
+    }
 }
