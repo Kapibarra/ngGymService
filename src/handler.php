@@ -14,7 +14,7 @@ $mail_to_name = 'qqqq';
 
 try {
 
-	$mail_from_email = isset( $_POST['name'] ) ? $_POST['name'] : '';
+	$mail_from_name = isset( $_POST['name'] ) ? $_POST['name'] : '';
 	$mail_from_phone = isset( $_POST['phone'] ) ? $_POST['phone'] : '';
 	
 	
