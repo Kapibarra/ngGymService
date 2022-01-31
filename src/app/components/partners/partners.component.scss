@@ -22,6 +22,7 @@
         flex-wrap: wrap;
         & div img {
             margin: 0 auto;
+            width: 100%;
         }
     }
 }
@@ -36,4 +37,13 @@
 
 .image {
     height: auto !important;
+}
+
+@media screen and (max-width: 968px) {
+    .partners__img {
+        justify-content: center!important;
+        & div {
+            margin-bottom: 10px;
+        }
+    }
 }
