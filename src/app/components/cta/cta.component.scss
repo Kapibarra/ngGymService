@@ -127,6 +127,7 @@
 }
 
 .succsess-popup {
+    display: none;
     opacity: 0;
     position: fixed;
     bottom: 30%;
@@ -142,7 +143,11 @@
         color: rgb(5, 163, 0);
     }
     & .close-popup {
+        width: 40px;
         display: flex;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
