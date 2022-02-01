@@ -22,5 +22,21 @@ export class CtaComponent implements OnInit {
       console.log('mobile', this.mobile);
     }
   }
-
+  removeVisible() {
+      
+  }
+  mailSend() {
+    const timeOut = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const popup = document.getElementById('popup')
+      popup!.classList.add('visible')
+      console.log('this', popup);
+          }, 3000)
+   })
+  }
+  closeModal() {
+    const popup = document.getElementById('popup')
+    popup!.classList.remove('visible')
+  }
+  
 }
