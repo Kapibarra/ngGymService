@@ -21,7 +21,7 @@
     width: 100%;
     max-width: 350px;
     justify-content: space-between;
-    padding-left: 180px;
+    padding-left: 190px;
     & li {
         color: white;
         line-height: 24px;
@@ -56,12 +56,14 @@
 .header__nav-socialmedia {
     display: flex;
     flex-direction: row;
-    width: 120px;
+    width: 140px;
     justify-content: space-between;
     margin-right: 20px;
     & a {
         box-sizing: border-box;
         padding: 5px;
+        display: flex;
+        align-items: center;
     }
     & a:hover {
         .header__nav-socialmedia-item {
