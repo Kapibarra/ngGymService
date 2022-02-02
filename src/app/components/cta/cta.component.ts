@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cta',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CtaComponent implements OnInit {
   mobile = false;
   desktop = false;
+  form!: FormGroup
   constructor() { }
 
   ngOnInit(): void {
@@ -21,6 +23,16 @@ export class CtaComponent implements OnInit {
       this.mobile = true;
       console.log('mobile', this.mobile);
     }
+
+    this.form = new FormGroup({
+      phone: new FormControl('', [
+        Validators.required,
+      ]),
+      name: new FormControl(null, [
+        Validators.required,
+        Validators.minLength(3)
+      ])
+    })
   }
   removeVisible() {
       
@@ -33,6 +45,12 @@ export class CtaComponent implements OnInit {
       console.log('this', popup);
           }, 3000)
    })
+   setTimeout(() => {
+     const popup = document.getElementById('popup')
+     popup!.classList.remove('visible')
+     console.log('removed');
+     
+   }, 5000)
   }
   closeModal() {
     const popup = document.getElementById('popup')

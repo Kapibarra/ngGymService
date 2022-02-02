@@ -5,9 +5,9 @@
         <a href="tel:+79017111769" class="cta__button" *ngIf="mobile"><button class="cta__button">ПОЗВОНИТЬ</button></a>
         <h2 class="cta__title" *ngIf="desktop">Оставьте Заявку Прямо Сейчас!</h2>
         <form ngNoForm action="handler.php" method="POST" *ngIf="desktop" target="_blank">
-            <input type="tel" class="cta__input" placeholder="Номер телефона" name="phone">
-            <input type="text" class="cta__input" placeholder="Имя" name="name">
-            <button type="submit" (click)="mailSend()">Отправить</button>
+            <input type="tel" class="cta__input" placeholder="Номер телефона" name="phone" formControlName="phone">
+            <input type="text" class="cta__input" placeholder="Имя" name="name" formControlName="name">
+            <button type="submit" (click)="mailSend()" [disabled]="form.invalid">Отправить</button>
         </form>
         <div class="cta__social-wrapper">
             <a href="https://wa.me/79017111769">
