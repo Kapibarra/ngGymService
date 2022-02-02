@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding-left: 12px;
     padding-right: 12px;
-    height: 125px;
+    height: 150px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -33,6 +33,13 @@
             color: #F74902;
             border-bottom: 1px solid rgba(#F74902, .7);
         }
+    }
+}
+
+.header__logo {
+    max-height: 140px;
+    & a img {
+        max-height: 140px;
     }
 }
 
