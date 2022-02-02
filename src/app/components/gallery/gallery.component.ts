@@ -36,6 +36,12 @@ export class GalleryComponent implements OnInit {
     {
       src: '../../../assets/img/gallery8.png',
     },
+    {
+      src: '../../../assets/img/gallery9.png',
+    },
+    {
+      src: '../../../assets/img/gallery10.png',
+    },
   ];
 
   constructor() {}

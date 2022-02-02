@@ -7,7 +7,7 @@
         <form ngNoForm action="handler.php" method="POST" *ngIf="desktop" target="_blank">
             <input type="tel" class="cta__input" placeholder="Номер телефона" name="phone">
             <input type="text" class="cta__input" placeholder="Имя" name="name">
-            <button type="submit" (click)="mailSend()" [disabled]="form.invalid">Отправить</button>
+            <button type="submit" (click)="mailSend()">Отправить</button>
         </form>
         <div class="cta__social-wrapper">
             <a href="https://wa.me/79017111769">

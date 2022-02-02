@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cta',
@@ -9,7 +8,6 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class CtaComponent implements OnInit {
   mobile = false;
   desktop = false;
-  form!: FormGroup
   constructor() { }
 
   ngOnInit(): void {
