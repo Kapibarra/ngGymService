@@ -23,16 +23,6 @@ export class CtaComponent implements OnInit {
       this.mobile = true;
       console.log('mobile', this.mobile);
     }
-
-    this.form = new FormGroup({
-      phone: new FormControl('', [
-        Validators.required,
-      ]),
-      name: new FormControl(null, [
-        Validators.required,
-        Validators.minLength(3)
-      ])
-    })
   }
   removeVisible() {
       
