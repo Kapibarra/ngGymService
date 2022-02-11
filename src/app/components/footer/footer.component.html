@@ -18,8 +18,11 @@
                 </a>
             </div>
         </div>
-        <div class="footer__map">
+        <div class="footer__map" *ngIf="!mobile">
             <a href="https://yandex.ru/maps/-/CCU5Y8sBoC"><img src="../../../assets/img/map.png"></a>
+        </div>
+        <div class="footer__map" *ngIf="mobile">
+            <a href="https://yandex.ru/maps/-/CCU5Y8sBoC"><img src="../../../assets/img/mobile-map.png"></a>
         </div>
     </div>
 </div>

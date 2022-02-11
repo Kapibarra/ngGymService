@@ -82,6 +82,7 @@
 @media screen and (max-width: 428px) {
     .footer {
         justify-content: center;
+        padding: 0px;
     }
     .footer__nav ul {
         text-align: center;
@@ -92,6 +93,7 @@
     .footer__map {
         width: 100%;
         max-width: 400px;
+        margin-top: 10px;
         & img {
             width: 100%;
             max-width: 400px;
