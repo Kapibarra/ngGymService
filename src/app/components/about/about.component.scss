@@ -49,10 +49,16 @@
     .about__block {
         justify-content: center;
     }
+    .about__img {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 428px) {
     .about__text {
         font-size: 18px;
+    }
+    .about__img {
+        margin-top: 10px;
     }
 }
