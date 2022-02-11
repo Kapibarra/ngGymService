@@ -1,5 +1,5 @@
 .footer-wrapper {
-    background: #343332;
+    background: #282828;
     width: 100%;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px 10px;
     box-sizing: border-box;
     & .footer__nav ul {
         list-style-type: none;
@@ -61,6 +61,9 @@
     & img {
         width: 100%;
         max-width: 796px;
+    }
+    & a {
+        display: flex;
     }
 }
 
