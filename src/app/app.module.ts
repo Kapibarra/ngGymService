@@ -40,7 +40,7 @@ import { FixedbtnComponent } from './components/fixedbtn/fixedbtn.component';
     FormsModule,
     BrowserAnimationsModule,
     NgImageSliderModule,
-    NgwWowModule ,
+    NgwWowModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
