@@ -1,28 +1,28 @@
 <header class="header">
-    <div class="header__logo">
+    <div class="header__logo wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
         <a [routerLink]="['/']"><img src="../../../assets/img/logo.svg"></a>
     </div>
     <ul class="header__nav" *ngIf="!mobile">
-        <li class="header__nav-item wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.1s"><a (click)="onClickScroll('about')">О нас</a></li>
-        <li class="header__nav-item wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"><a (click)="onClickScroll('services')">Услуги</a></li>
-        <li class="header__nav-item wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"><a (click)="onClickScroll('gallery')">Галерея</a></li>
-        <li class="header__nav-item wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s"><a (click)="onClickScroll('footer')">Контакты</a></li>
+        <li class="header__nav-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.1s"><a (click)="onClickScroll('about')">О нас</a></li>
+        <li class="header__nav-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.2s"><a (click)="onClickScroll('services')">Услуги</a></li>
+        <li class="header__nav-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.3s"><a (click)="onClickScroll('gallery')">Галерея</a></li>
+        <li class="header__nav-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.4s"><a (click)="onClickScroll('footer')">Контакты</a></li>
     </ul>
     <div class="header__nav-wrapper">
         <div class="header__nav-socialmedia">
             <a href="https://wa.me/79017111769">
-                <div class="header__nav-socialmedia-item"><img class="header__nav-socialmedia-item" src="../../../assets/img/whatsapp-fill.svg"></div>
+                <div class="header__nav-socialmedia-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.1s"><img class="header__nav-socialmedia-item" src="../../../assets/img/whatsapp-fill.svg"></div>
             </a>
             <a href="https://t.me/fitservMSK">
-                <div class="header__nav-socialmedia-item"><img class="header__nav-socialmedia-item" src="../../../assets/img/telegram-fill.svg"></div>
+                <div class="header__nav-socialmedia-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.2s"><img class="header__nav-socialmedia-item" src="../../../assets/img/telegram-fill.svg"></div>
             </a>
             <a href="https://www.instagram.com/fitserv.ru/">
-                <div class="header__nav-socialmedia-item"><img class="header__nav-socialmedia-item" src="../../../assets/img/instagram-fill.svg"></div>
+                <div class="header__nav-socialmedia-item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.3s"><img class="header__nav-socialmedia-item" src="../../../assets/img/instagram-fill.svg"></div>
             </a>
         </div>
         <div class="header__nav-contacts">
-            <a href="tel:+79017111769" class="header__nav-phone">+7 (901) 711 17 69</a>
-            <a href="mailto:info@fitserv.ru" class="header__nav-mail">info@fitserv.ru</a>
+            <a href="tel:+79017111769" class="header__nav-phone wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">+7 (901) 711 17 69</a>
+            <a href="mailto:info@fitserv.ru" class="header__nav-mail wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">info@fitserv.ru</a>
         </div>
     </div>
     <app-burger *ngIf="mobile"></app-burger>
