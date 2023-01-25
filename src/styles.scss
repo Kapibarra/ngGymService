@@ -1,28 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
 :host::ng-deep {
-    @import "~animate.css/animate.css";
+  @import "~animate.css/animate.css";
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
-@import '~normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+@import "~normalize.css";
 html {
-    scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    background-color: #f7f7f7
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: #f7f7f7;
 }
 
 .ng-image-slider .ng-image-slider-container .main .main-inner .img-div {
-    box-shadow: none !important;
-    margin-right: 5px !important;
+  box-shadow: none !important;
+  margin-right: 5px !important;
 }
-
-@media screen and (max-width:968px) {
-    .ng-image-slider .ng-image-slider-container .main .main-inner .img-div {
-        & img {
-            height: unset !important;
-        }
+.highlight {
+  color: #f74902;
+}
+@media screen and (max-width: 968px) {
+  .ng-image-slider .ng-image-slider-container .main .main-inner .img-div {
+    & img {
+      height: unset !important;
     }
+  }
 }
